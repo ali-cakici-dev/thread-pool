@@ -1,7 +1,7 @@
 import threading
 import time
 
-class ThreadList:
+class ThreadPool:
 
     def __init__(self, threadNumber, processNumber, mode, callback):  # threadNumber kadar thread olusturur, listeye ekler
         self.THREAD_NUM = threadNumber
